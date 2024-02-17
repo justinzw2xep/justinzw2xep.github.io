@@ -5,6 +5,8 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Nunito', sans-serif; /* Adding Nunito font */
+    color: #ffffff; /* Changing h1 text color */
+
 }
 
 .content {
@@ -13,11 +15,44 @@ body {
 }
 
 h1 {
-    color: #8CB524; /* Changing h1 text color */
+    color: #ffffff; /* Changing h1 text color */
     font-weight: 800; /* Making h1 extra bold */
     font-size: 2.5em; /* Increasing h1 font size */
 }
 
 h2 {
     font-weight: normal; /* Making h2 non-bold */
+    color: #ffffff; /* Changing h1 text color */
+
+}
+
+img {
+    border-radius: 80px; /* Adjust the value to change the roundness of the corners */
+    transform: scale(0.6);
+    display: block; /* Ensure images are displayed as block elements */
+    margin: 0 auto; /* Center the image horizontally */
+    padding: 0; /* Remove any default padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow properties as needed */
+
+}
+
+h1, h2, p {
+    margin: 0; /* Remove margin to decrease spacing */
+    padding: 5px 0; /* Add padding for spacing between elements */
+}
+
+body {
+    color: "8CB524"; /* Adjust the colors and direction as needed */
+    background: linear-gradient(to bottom right, #B9E157, #76A308); /* Adjust the colors and direction as needed */
+    background-size: 300% 300%; /* Increase background size for more variation */
+    animation: gradientAnimation 10s ease infinite alternate; /* Animation for shifting gradient */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
 }
