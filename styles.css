@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Nunito', sans-serif; /* Adding Nunito font */
+}
+
+.content {
+    text-align: center;
+    font-family: 'Nunito', sans-serif; /* Adding Mulish font */
+}
+
+h1 {
+    color: #8CB524; /* Changing h1 text color */
+    font-weight: 800; /* Making h1 extra bold */
+    font-size: 2.5em; /* Increasing h1 font size */
+}
+
+h2 {
+    font-weight: normal; /* Making h2 non-bold */
+}
